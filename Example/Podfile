@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBKVO_Example' do
+  pod 'HBKVO', :path => '../'
+
+  target 'HBKVO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
