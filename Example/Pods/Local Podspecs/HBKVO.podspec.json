@@ -1,0 +1,22 @@
+{
+  "name": "HBKVO",
+  "version": "0.1.0",
+  "summary": "A short description of HBKVO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wutianyukkk@sina.com/HBKVO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutianyukkk@sina.com": "zhaoliangbo@gaiay.com"
+  },
+  "source": {
+    "git": "https://github.com/wutianyukkk@sina.com/HBKVO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HBKVO/Classes/**/*"
+}

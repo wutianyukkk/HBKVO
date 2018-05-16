@@ -1,0 +1,6 @@
+framework module Pods_HBKVO_Tests {
+  umbrella header "Pods-HBKVO_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

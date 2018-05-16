@@ -1,0 +1,6 @@
+framework module HBKVO {
+  umbrella header "HBKVO-umbrella.h"
+
+  export *
+  module * { export * }
+}

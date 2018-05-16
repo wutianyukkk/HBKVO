@@ -7,6 +7,8 @@
 //
 
 #import "HBViewController.h"
+#import "HBPerson.h"
+#import "NSObject+KVO.h"
 
 @interface HBViewController ()
 
@@ -18,7 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HBPerson *person = [[HBPerson alloc] init];
+    
+    [person hb_addObserver:self forKeyPath:@"name"];
+    
+    person.name = @"nihao";
 }
+
+-(void)hb_observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    NSLog(@"%@",change);
+}
+
 
 - (void)didReceiveMemoryWarning
 {
