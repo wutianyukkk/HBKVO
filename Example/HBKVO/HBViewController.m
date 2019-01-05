@@ -24,7 +24,7 @@
     
     [person hb_addObserver:self forKeyPath:@"name"];
     
-    person.name = @"nibuhaohao";
+    person.name = @"niaho";
 }
 
 -(void)hb_observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
